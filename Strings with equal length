@@ -1,0 +1,9 @@
+print('enter two strings of equal length')
+m=input('enter first string')
+n=input('enter second string')
+if len(m)==len(n):
+    for i in range(len(m)):
+        print(m[i],n[i],end=" ")
+               
+else:
+    print("Both strings are having different lengths")
