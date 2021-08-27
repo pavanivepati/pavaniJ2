@@ -1,0 +1,20 @@
+units=["inches","yard","miles",'millimeters',"centimeters","meters","kilometers"]
+con_from_feet=[12, 0.33333, 0.000189393939, 304.8, 30.48, 0.3048, 0.0003048]
+feet=float(input("enter lenght in feets"))
+for i,v in enumerate(units):
+    print(f'enter {i+1}feet to convert to {v}')
+i=int(input("enter your choice"))-1
+print(f'the lengh in{units[i]}={feet*con_from_feet[i]}')
+
+
+output:
+enter lenght in feets52
+enter 1feet to convert to inches
+enter 2feet to convert to yard
+enter 3feet to convert to miles
+enter 4feet to convert to millimeters
+enter 5feet to convert to centimeters
+enter 6feet to convert to meters
+enter 7feet to convert to kilometers
+enter your choice3
+the lengh inmiles=0.009848484828000001
