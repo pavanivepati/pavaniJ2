@@ -1,0 +1,13 @@
+num1=float(input("enter first number"))
+num2=float(input("enter second number"))
+print(num1,num2,num1-num2)
+diff=float(f'{abs(num1-num2):.3f}')
+print(diff)
+print('close' if diff<=0.001 else 'not close' )
+
+Output:
+enter first number5.68
+enter second number 5.69
+5.68 5.69 -0.010000000000000675
+0.01
+not close
