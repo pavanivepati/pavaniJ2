@@ -1,0 +1,14 @@
+str1=(input ("enter first string"))
+str2=(input ("enter second string"))
+if(len(str1)==len(str2)):
+  str=''
+  str=str1+str2
+  print(f"after concatenation {str}")
+else:
+  print(f'lengths of str1 is {len(str1)} and str2 is {len(str2)}')
+ 
+
+Output:
+enter first string pavani
+enter second string vepati
+after concatenation PavaniVepati
