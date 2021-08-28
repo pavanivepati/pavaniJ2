@@ -1,0 +1,13 @@
+name=input("enter your name")
+repetation=int(input("enter a number to print the name for that times"))
+print((name+' ')*repetation)
+print((name+"\n")*repetation)
+
+Output:
+enter your name kumari
+enter a number to print the name for that times 4
+ kumari  kumari  kumari  kumari
+ kumari
+ kumari
+ kumari
+ kumari
