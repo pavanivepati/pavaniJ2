@@ -1,0 +1,15 @@
+word=input("enter a word")
+flag=0
+for i in word:
+	if i in'aeiouAEIOU':
+		flag+=1
+		break
+if(flag==0):
+  print("there are no vowels in the word")
+else:
+  print("vowels are present in the word")
+
+
+Output:
+enter a word python
+vowels are present in the word
