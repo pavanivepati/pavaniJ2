@@ -1,0 +1,6 @@
+integer=int(input("enter a large number:"))
+print(f'{integer: ,}')
+
+Output:
+enter a large number:1000000
+ 1,000,000
