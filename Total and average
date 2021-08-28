@@ -1,0 +1,14 @@
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+num3=int(input("enter third number"))
+total=num1+num2+num3
+print(f'total is {num1}+{num2}+{num3}={total}')
+average=(num1+num2+num3)/3
+print(f'average({num1},{num2},{num3}) is {average:.3f}')
+
+Output:
+enter number3
+enter number5
+enter number7
+total is 3+5+7=15
+average(3,5,7) is 5.000
