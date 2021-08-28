@@ -1,0 +1,17 @@
+exp=input("enter an expression:")
+print(exp)
+conv_exp=' '
+for i in range(len(exp)-1):
+	if(exp[i].isalnum( ) and (exp[i+1].isalpha( ) or exp[i+1]=='(' )):
+		conv_exp+=exp[i]+'*'
+	elif(exp[i]==')' and (exp[i+1]=='(' or exp[i+1].isalnum())):
+		conv_exp+=exp[i]+'*'
+	else:
+		conv_exp+=exp[i]
+conv_exp+=exp[i+1]
+print(conv_exp)
+
+Output:
+enter an expression:(100)(3abc)(xyz)3
+(100)(3abc)(xyz)3
+ (100)*(3*a*b*c)*(x*y*z)*3
