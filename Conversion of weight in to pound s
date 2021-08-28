@@ -1,0 +1,13 @@
+weipght=float(input("enter weight in kilograms"))
+print(f'{weight} kilograms={weight*2.2} )
+print(weight,'kilograms=', weight*2.2,'pounds')
+print('%f kilograms=%f pounds'%(weight,weight*2.2))
+print (str(weight)+'kilograms'+'='+str(weight*2.2)+'pounds')
+print ('{} kilograms={} pounds'.format(weight, weight*2.2))
+Output:
+enter weight in kilograms5
+5.0 kilograms=11.0 pounds
+5.0 kilograms= 11.0 pounds
+5.000000 kilograms=11.000000 pounds
+5.0kilograms=11.0pounds
+5.0 kilograms=11.0 pounds
