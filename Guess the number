@@ -1,0 +1,12 @@
+import random
+rand=random.randint(1,10)
+guess=int(input("enter the guess number"))
+if guess==rand:
+	print('your guess is correct')
+else:
+	print('your guess is wrong')
+print('your guess is{}'.format('correct'if guess==rand else 'wrong'))
+Output:
+enter the guess number 6
+your guess is wrong
+your guess iswrong
