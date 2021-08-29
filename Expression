@@ -1,0 +1,19 @@
+expr = input('Enter a mathematical expression: ')
+print(expr)
+conv_expr = ''
+for i in range(len(expr)-1):
+    if expr[i].isalnum() and (expr[i+1].isalpha() or expr[i+1] == '('):
+        conv_expr += expr[i] + '*'
+    elif expr[i] == ')' and expr[i+1] == '(' or expr[i+1].isalpha():
+        conv_expr += expr[i] + '*'
+    elif expr[i].isalpha()and expr[i+1].isalnum():
+    	conv_expr+=expr[i]+'*'
+    else:
+        conv_expr += expr[i]
+conv_expr += expr[i+1]
+print(conv_expr)
+
+Output:
+Enter a mathematical expression: (100)xyz(76)a34c5b
+(100)xyz(76)a34c5b
+(100)*x*y*z*(76)*a*34*c*5*b
