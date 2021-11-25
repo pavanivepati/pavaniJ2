@@ -1,0 +1,44 @@
+
+<html>
+<head>
+	<title>THIS IS A SAMPLE PROGRAM</title>
+</head>
+<body bgcolor="white">
+	<p align="center" ><i><h1>programing language</i></h1><br/>
+	<sub>1.PYTHON lab1</sub><br/>
+	<strong>2.c lab2</storng><br/>
+	<sup>3.CPP lab3</sup><br/>
+	<h2>hello<sup>13</sup></h2>
+	<button>4.OOPS</button></p>
+	<h2>a<sup>2</sup>+b<sup>2</sup></h2>
+	<tt>hello WORLD</tt>
+	<p>hello world</p>
+	<font color="blue">This is a paragraph.</font>
+	<h1><p style="color:blue">this is a sentence</p></h1>
+	<font size="34">hello</font><pre>
+	<font size="6" face="verdana">python</font>
+	<font siz="6" face="arial">python</font>
+
+</body>
+</html>
+
+output:
+
+programing language
+
+1.PYTHON lab1
+2.c lab2
+3.CPP lab3
+hello13
+4.OOPS
+a2+b2
+hello WORLD
+hello world
+
+This is a paragraph.
+this is a sentence
+
+hello
+	python
+	python
+
